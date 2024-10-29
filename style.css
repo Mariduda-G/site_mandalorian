@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'embed code',sans-serif;
+}
+
+:root{
+    --color_01:#134B70;
+    --color_02:#EEEEEE;
+    --color_03: #508C9B;
+    --color_04: #201E43;
+    --color_05:rgb(0, 0, 29);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--color_01);
+    color: var(--color_02);
+}
+
+nav img{
+    width: 120px;
+}
+
+nav div ul{
+    display: flex;
+}
+
+nav div ul li{
+    padding-left: 20px;
+    font-size: 18px;
+    list-style: none;
+}
+
+nav div ul li a{
+    color: var(--color_02);
+    text-decoration: none;
+}
+
+.container_header{
+    height: 80vh;
+    background-image: url(imagens/thisistheway.gif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.container_title{
+    margin-left: 16vh;
+}
+
+.title_1{
+    color: var(--color_02);
+    text-shadow: 1px 1px 1px var(--color_04);
+    font-size: 120px;
+    font-weight: 100;
+}
+
+.title_2{
+    color: var(--color_02);
+    text-shadow: 2px 2px 2px var(--color_05);
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 0.8;
+    text-align: center;
+}
+
+.main{
+    background-color: var(--color_04);
+}
+
+.container_games{
+    background-color: var(--color_04);
+    color: var(--color_02);
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.container_games h2{
+    font-size: 80px;
+    font-weight: 100;
+    color: var(--color_02);
+    margin-bottom: 30px;
+}
+
+.container_games p{
+    font-size: 18px;
+    font-weight: 1.4;
+    padding-bottom: 20px;
+}
+
+.container_card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+h3{
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: var(--color_01);
+}
+
+.card_jogo{
+    width: 23%;
+    height: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#a1{
+    background-image: url(./imagens/capitulo1.jfif);
+    background-position: center;
+}
+
+#a2{
+    background-image: url(./imagens/capitulo2.jfif);
+    background-position: center;
+}
+
+#a3{
+    background-image: url(./imagens/capitulo3.jfif);
+    background-position: center;
+}
+
+#a4{
+    background-image: url(./imagens/capitulo4.jfif);
+    background-position: center;
+}
+
+#a5{
+    background-image: url(./imagens/capitulo5.jfif);
+    background-position: center;
+}
+
+#a6{
+    background-image: url(./imagens/capitulo6.jfif);
+    background-position: center;
+}
+
+#a7{
+    background-image: url(./imagens/capitulo7.jfif);
+    background-position: center;
+}
+
+#a8{
+    background-image: url(./imagens/capitulo8.jfif);
+    background-position: center;
+}
+
+aside{
+    background-color: var(--color_01);
+}
+
+.aside{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    height: 125vh;
+}
+
+.aside h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--color_02);
+}
+
+.container_poster{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_poster{
+    width: 24%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#filme img{
+    width: 100%;
+    height: 65vh;
+}
+
+.card_poster p{
+    display: inline-block;
+    position: absolute;
+    padding-top: 90vh;
+    color: var(--color_02);
+}
+
+.card_poster #btn{
+    display: inline-block;
+    position: absolute;
+    color: var(--color_02);
+    background-color: var(--color_04);
+    border-radius: 10px;
+    margin-top: 125vh;
+    padding: 10px;
+}
+
+footer{
+    background-color: var(--color_04);
+}
+
+footer ul{
+    display: flex;
+    justify-content: end;
+}
+
+footer ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: var(--color_02);
+}
